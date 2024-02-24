@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="./output.css">
+    <script src="https://kit.fontawesome.com/aed70510d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="flex px-8 justify-between items-center py-4 bg-cyan-950 text-blue-50">
+        <h1 class="">Travel</h1>
+        <ul class="flex items-center px-8">
+            <li class ="px-8"><a href="./travel_recomendation.html">Home</a></li>
+            <li class ="px-8"><a href="./about.html">About us</a></li>
+            <li class ="px-8"><a href="./contact.html">Contact</a></li>
+        </ul>
+        <div class="bg-white p-1 rounded-xl">
+            <input class=" rounded-lg p-1" type="search" id="conditionInput" placeholder="Enter a destination or keyword">
+            <a href="#"><i class='p-1 text-xl	text-cyan-500 fas fa-search'></i></a>
+            <button class ="px-4 bg-cyan-500 rounded-lg p-1" id='btnSearch'>Search</button>
+            <button class ="px-4 bg-cyan-500 rounded-lg p-1" id='btnClear'>Clear</button>
+        </div>
+    </nav>
+    <div class="h-screen text-blue-50	flex  items-left  bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)) ,url(../static/background.jpg);">
+        <section id="Home" class="m-16 w-3/6" >
+            <h1 class="text-5xl my-16 font-semibold">Explore Dream Destination</h1>
+            <p class="mb-16 text-xl	">It encourages exploration of unfamilier territoris, embracing divers cultures and landscapes</p>
+            <button class="font-semibold mb-16 p-4 bg-cyan-500 rounded-2xl">Book Now</button>
+            <div>
+                <a href="#"><i class='px-2 text-xl	 fab fa-facebook'></i></a>
+                <a href="#"><i class='px-2 text-xl	 fab fa-instagram'></i></a>
+                <a href="#"><i class='px-2 text-xl	 fab fa-youtube'></i></a>
+            </div>
+        </section>
+        <section id="res" class="m-16 w-3/6">
+        </section>
+    </div>
+    <script src="./travel_recomendatin.js"></script>
+</body>
+</html>

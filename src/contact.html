@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="./output.css">
+    <script src="https://kit.fontawesome.com/aed70510d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="flex px-8 justify-between items-center py-4 bg-cyan-950 text-blue-50">
+        <h1 class="">Travel</h1>
+        <ul class="flex items-center px-8">
+            <li class ="px-8"><a href="./travel_recomendation.html">Home</a></li>
+            <li class ="px-8"><a href="./about.html">About us</a></li>
+            <li class ="px-8"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="h-screen text-blue-50  flex  items-center justify-around  bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)) ,url(../static/background.jpg);">
+        <h1 class="text-5xl m-8 font-bold">Contact Us <br><p class="text-lg m-2 font-thin ">lets content...</p><br><br><br><br><br><br></h1>
+        <form class="flex flex-col items-left justify-center p-4 rounded-xl" style="background-color: rgba(51, 51, 51, 0.331);">
+            <label class="m-1" for="name">Name</label>
+            <input class="m-1 text-black" id="name" type="text"/>
+            <label class="m-1" for="email">Email</label>
+            <input class="m-1 text-black" id="email" type="email"/>
+            <label class="m-1" for="message">Message</label>
+            <textarea class="m-1 text-black" id="message" cols="50" rows="10"></textarea>
+            <button id="contact" class="m-1 font-semibold p-4 bg-cyan-500 rounded-2xl ">Send</button>
+        </form>
+    </div>
+</body>
+</html>
